@@ -1,3 +1,3 @@
 json.extract! question, :id, :landmark
-json.coordinates
+json.coordinates question.coordinates
 json.extract! question, :question, :answer
